@@ -1,0 +1,117 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(22, 22, 22);
+  color: white;
+}
+
+.note-card {
+  margin-top: 30px;
+  border: 1px solid white;
+  padding: 20px;
+  max-width: 300px;
+  height: max-content;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  padding: 15px 50px;
+}
+
+.emptyData {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  padding: 2px 5px;
+}
+
+.card-action {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  column-gap: 10px;
+}
+
+.new-notes-container {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#new-notes__form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+input {
+  padding: 10px;
+}
+
+#input-body {
+  height: 300px;
+}
+
+button {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  padding: 15px 0px;
+}
+
+.search-input {
+  all: unset;
+  border: 1px solid white;
+  padding: 2px 10px;
+}
+
+.notes-category {
+  display: flex;
+  flex-direction: column;
+}
+
+.notes-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+#input-title {
+  width: 100%;
+}
+
+.title-input__container {
+  position: relative;
+}
+
+.limit-character {
+  text-align: right;
+  position: absolute;
+  top: -30px;
+  right: 0;
+}
+
+.createdAt-text {
+  font-size: 10px;
+}
